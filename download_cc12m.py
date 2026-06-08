@@ -18,7 +18,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-BASE_DIR  = '/media/isesat/e8188905-1ffc-4de1-83b6-ac2addc2a941'
+BASE_DIR  = '/your/path'
 TSV_PATH  = os.path.join(BASE_DIR, 'cc12m.tsv')       # downloaded TSV file
 SAVE_DIR  = os.path.join(BASE_DIR, 'cc12m', 'images')
 META_PATH = os.path.join(BASE_DIR, 'cc12m', 'captions.tsv')
