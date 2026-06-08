@@ -24,5 +24,3 @@ cc12m/
     captions.tsv   ← successful image-caption pairs (filename \t caption)
 ```
 
-tall requests tqdm
-```
